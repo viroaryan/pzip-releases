@@ -13,3 +13,8 @@ Each release contains `SHA256SUMS.txt`. After downloading, compare your APK's SH
 `a6b77cc6ecf9112506449b25c2c2ab0f025b6d6a331422584bfc79306fa0b84a`
 
 Only files attached to this repository's Releases are official downloads. Source code, build instructions and third-party notices are in [open-pzip](https://github.com/viroaryan/open-pzip).
+
+## Upgrading from a test APK
+
+The official release uses a production signing key. If you installed an earlier debug/test APK, Android cannot install this release over it. First move any files out of pzip's Safe folder and back up app data you need, then uninstall the test build before installing the official APK. Uninstalling can remove app-private files and settings.
+
