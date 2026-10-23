@@ -6,6 +6,10 @@ Official signed APK releases for [pzip](https://github.com/viroaryan/open-pzip),
 
 Use the [latest GitHub Release](https://github.com/viroaryan/pzip-releases/releases/latest) and choose `pzip-universal.apk` for most Android phones. Architecture-specific APKs are available for smaller downloads. Android 8.0 or newer is required.
 
+## Current release
+
+Version 1.0.1 improves local video startup, retries software decoding after a playback error, and keeps subtitles clear of the player controls. See the [full changelog](https://pzip.in/changelog) and the matching [source tag](https://github.com/viroaryan/open-pzip/tree/v1.0.1).
+
 ## Verify
 
 Each release contains `SHA256SUMS.txt`. After downloading, compare your APK's SHA-256 hash to the matching line in that file. The production signing certificate SHA-256 fingerprint for v1.0.0 is:
